@@ -1,0 +1,302 @@
+@media all and (max-width:360px){
+
+}
+
+@media all and (max-width:480px){
+
+    #main-header #logo {
+        width: 45% !important;
+        margin-left: 30px !important;
+        margin-top: 10px !important;
+    }
+    
+    #main-header #logo #ist {
+        font-size: 20px !important;
+    }
+    
+    #main-header #logo #iist {
+        font-size: 20px !important;
+    }
+    
+    #search {
+        display: none;
+    }
+    
+    #user-name {
+        margin-top: 16px !important;
+    }
+
+    .menu-toggle {
+        display: block;
+        top: 12px !important;
+        left: 8px;
+    }
+
+    .products .prod-container .prod-box,
+    #categories .cat-box {
+        width: 100% !important;
+        margin: 0px 10px 20px 0px;
+    }
+
+    .offers .offer-box {
+        width: 100% !important;
+    }
+}
+
+/* extra amall rules [ xs ] */
+
+@media all and (max-width:767px){
+    .menu-toggle {
+        display: block;
+    }
+
+    #subheader {
+        display: none;
+    }
+
+    #nav {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #nav #main-nav {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        display: none;
+    }
+
+    #nav #main-nav a {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #000;
+        margin: 0 !important;
+        padding: 10px;
+    }
+
+    #main-header {
+        height: 70px;
+        margin: 0;
+        position: relative;
+    }
+
+    #heading-block {
+        font-size: 18px;
+    }
+    
+    #main-header #logo {
+        width:30%;
+        float: left;
+        margin: 8px 0 0 10px;
+    }
+    
+    #main-header #logo #ist {
+        font-size: 20px;
+    }
+    
+    #main-header #logo #iist {
+        font-size: 20px;
+    }
+    
+    #search {
+        width: 38%;
+        float: left;
+        padding: 10px;
+    }
+
+    #search .search-area {
+        width: 100%;
+        height: 30px;
+    }
+    
+    #search .search-btn {
+        width: 80px;
+        height: 33px;
+        margin-left: -80px;    
+    }
+    
+    
+    #user-name {
+        width: auto;
+        margin-right: 10px;
+        margin-top: 18px;
+    }
+    
+    #user-name li {
+        float: left;
+        width: 50px;
+        text-align: center;
+        font-size: 16px;
+
+    }
+    
+    #user-name li:hover {
+        font-size: 18px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .products .prod-container .prod-box,
+    #categories .cat-box {
+        width: 47.8%;
+        margin: 0px 10px 20px 0px;
+    }
+
+    .offers .offer-box {
+        width: 47.8%;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+    
+    .footer .footer-sub-1{
+        width: 100%;
+        margin-right: 1%;
+    }
+    
+    .footer .footer-sub-2 {
+        width: 50%;
+    }
+
+    .footer .footer-sub-3 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .footer .footer-sub-3 h2 {
+        margin-left: 20%;
+    }
+
+    .footer .footer-sub-3 p {
+        margin-left: 0%;
+    }
+    
+    .footer .footer-sub-3 .subs {
+        width: 40%;
+    }
+
+}
+
+
+/* small screen rules [ md ] */
+
+@media all and (min-width:768px) and (max-width:991px){
+    
+    #heading-block {
+        font-size: 18px;
+    }
+    
+    #subheader p {
+        margin-top: 2px;
+    }
+
+    #subheader  a{
+        line-height: 20px;
+    }
+
+    #main-header {
+        height: 70px;
+    }
+    
+    #main-header #logo {
+        width:25%;
+        margin: 18px 0 0 15px;
+    }
+    
+    #main-header #logo #ist {
+        font-size: 25px;
+    }
+    
+    #main-header #logo #iist {
+        font-size: 25px;
+    }
+    
+    #search {
+        width: 45%;
+        padding: 15px;
+    }
+    
+    #search .search-area {
+        width: 85%;
+        height: 40px;
+    }
+    
+    #search .search-btn {
+        width: 85px;
+        height: 42px;
+        margin-left: -45px;
+    }
+    
+    #user-name {
+        width: 21%;
+        margin-top: 23px;
+    }
+    
+    #user-name li {
+        width: 70px;
+        font-size: 18px;
+    }
+    
+    #user-name li:hover {
+        font-size: 24px;
+    }
+
+    .products .prod-container .prod-box,
+    #categories .cat-box {
+        width: 31.9%;
+        margin: 0px 10px 20px 0px;
+    }
+
+    .offers .offer-box {
+        width: 31.9%;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+    
+    .footer .footer-sub-1{
+        width: 44%;
+        margin-right: 1%;
+    }
+    
+    .footer .footer-sub-2 {
+        width: 27.5%;
+    }
+
+    .footer .footer-sub-3 {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .footer .footer-sub-3 h2 {
+        margin-left: 20%;
+    }
+
+    .footer .footer-sub-3 p {
+        margin-left: 10%;
+    }
+    
+    .footer .footer-sub-3 .subs {
+        width: 40%;
+    }
+}
+
+
+/* medium screen rules [ lg ]*/
+
+@media all and (min-width:992px) and (max-width:1199px){
+    .products .prod-container .prod-box,
+    #categories .cat-box {
+        width: 23.9%;
+        margin: 0px 10px 20px 0px;
+    }
+
+    .offers .offer-box {
+        width: 32%;
+    }
+}
